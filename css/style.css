@@ -54,3 +54,59 @@ span {
 	font-size: 24px;
 	cursor: pointer;	
 }
+
+@media screen and (max-width: 375px) {
+	.input-wrap {
+		display: flex;
+		flex-direction: column;
+		margin: 10px;
+		align-items: start;
+	}
+
+	.input-wrap__input-elem {
+		border: 1px solid #000;
+		border-radius: 3px;
+		padding: 7px 5px;
+		width: 335px;
+		margin-bottom: 10px;
+	}
+
+	.input-wrap__add-btn {
+		background-color: #FADB4B;
+		border: 1px solid #000;
+		border-radius: 3px;
+		padding: 3px 5px;
+		font-weight: 600;
+	}
+
+	.logo {
+		position: absolute;
+		width: 130px;
+		height: 80px;
+		right: 14px;
+		top: 562px;
+	}
+
+	.tasks-list {
+		margin: 15px 0 0 50px;
+		list-style: disc;
+	}
+
+	li {
+		margin-bottom: 10px;
+		font-size: 22px;
+	}
+	
+	span {
+		color: rgb(190, 24, 24);
+		display: inline-block;
+		margin-left: 17px;
+		font-weight: 600;
+		font-size: 22px;
+		cursor: pointer;	
+	}
+}
+
+/* @media screen and (max-width: 450px) {
+	
+} */
